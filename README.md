@@ -6,7 +6,7 @@ This is an introduction exercise using Template Scripting Testing Language Tool 
 tstl rbt.tstl
 tstl_rt
 ```
-## Dependencieshttps://github.com/jbredeme
+## Dependencies
 * [Python 2.7.x](https://www.python.org/) - Implementation language.
 
 ## Resources
