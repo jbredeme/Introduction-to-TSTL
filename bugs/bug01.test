@@ -1,0 +1,14 @@
+self.p_int[5] = 13 
+self.p_int[2] = 7 
+self.p_int[7] = 13 
+self.p_tree[0] = RedBlackTree() 
+self.p_tree[1] = RedBlackTree() 
+self.p_node[3] = Node(self.p_int[5]) 
+self.p_node[0] = Node(self.p_int[2]) 
+self.p_int[6] = 10 
+self.p_tree[1].add(self.p_int[7]) 
+self.p_tree[0].add(self.p_int[5]) 
+self.p_tree[1].insert(self.p_node[3]) 
+self.p_tree[1].add(self.p_int[6]) 
+self.p_tree[1].insert(self.p_node[0]) 
+self.p_tree[0].delete(self.p_node[3]) 

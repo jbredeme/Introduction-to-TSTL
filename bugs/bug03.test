@@ -1,0 +1,7 @@
+self.p_int[1] = 2 
+self.p_tree[0] = RedBlackTree() 
+self.p_int[6] = 11 
+self.p_node[6] = Node(self.p_int[6]) 
+self.p_tree[0].insert(self.p_node[6]) 
+self.p_tree[0].add(self.p_int[1]) 
+self.p_tree[0].black_height(self.p_node[6]) 
