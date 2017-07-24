@@ -1,18 +1,13 @@
 # Introduction to TSTL
 This is an introduction exercise using Template Scripting Testing Language Tool (TSTL) to find and identify the bugs/defects in an implementation of red-black tree written in Python.
- 
-## Screenshots
-TODO
 
 ## Usage
 ```python
-TODO
+tstl rbt.tstl
+tstl_rt
 ```
-
-## Example Test Harness in Python
-```python
-
-```
+## Dependencieshttps://github.com/jbredeme
+* [Python 2.7.x](https://www.python.org/) - Implementation language.
 
 ## Resources
 * [Template Scripting Testing Language Tool]
