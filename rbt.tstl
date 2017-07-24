@@ -1,0 +1,23 @@
+# Author: Jarid Bredemeier
+
+@from red_black_tree import *
+
+# Create pools
+pool: <int> 8
+pool: <node> 8
+pool: <tree> 2
+
+# Assign values
+<int> := <[1..16]>
+<node> := Node(<int>)
+<tree> := RedBlackTree()
+
+# Define actions
+<tree>.add(<int>)
+<tree>.insert(<node>)
+<tree>.delete(<node>)
+<tree>.black_height(<node>)
+<tree>.search(<int>)
+<tree>.is_empty()
+<tree>.inorder_walk()
+<tree>.reverse_inorder_walk()
